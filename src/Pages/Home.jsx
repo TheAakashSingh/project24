@@ -1,7 +1,10 @@
 import React from 'react'
+import './Home.css'
 import bg1 from '../videoImage/bg1.mp4'
 import logo from '../videoImage/logo.png'
-import './Home.css'
+import pic1 from '../videoImage/pic1.png'
+import pic2 from '../videoImage/pic2.png'
+
 const Home = () => {
     return (
         <div className='home' >
@@ -32,6 +35,30 @@ const Home = () => {
                         <span className="heading2">Enter Your date here</span>
                         <button>Button 2</button>
                     </div>
+                </div>
+            </div>
+            <div className="section2Mid">
+                <div className="sec2Head">
+                    <div className="head1">Our Team</div>
+                    <div className="head2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati dicta illo facere amet quos laudantium nesciunt! Officia dolor quod vero.</div>
+                </div>
+                <div className="sec2Mid1">
+                    <img src={pic1} alt="" />
+                    <div className="boxes1">
+                        <div className="part1"><span>ALEX MONIET</span></div>
+                        <div className="part2"><span>Programming Manger</span></div>
+                        <div className="part3"><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptas illum nesciunt velit sit id distinctio officia!</span></div>
+                   </div>
+
+                </div>
+                <div className="sec2Mid2">
+                    <div className="boxes2">
+                        <div className="part1"><span>ALEX MONIET</span></div>
+                        <div className="part2"><span>Programming Manger</span></div>
+                        <div className="part3"><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptas illum nesciunt velit sit id distinctio officia!</span></div>
+             
+                    </div>
+                    <img src={pic2} alt="" />
                 </div>
             </div>
         </div>
