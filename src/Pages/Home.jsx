@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import bg1 from '../videoImage/bg1.mp4'
+import bg2 from '../videoImage/bgv1.mp4'
 import logo from '../videoImage/logo.png'
 import pic1 from '../videoImage/pic1.png'
 import pic2 from '../videoImage/pic2.png'
@@ -48,7 +49,7 @@ const Home = () => {
                         <div className="part1"><span>ALEX MONIET</span></div>
                         <div className="part2"><span>Programming Manger</span></div>
                         <div className="part3"><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptas illum nesciunt velit sit id distinctio officia!</span></div>
-                   </div>
+                    </div>
 
                 </div>
                 <div className="sec2Mid2">
@@ -56,10 +57,15 @@ const Home = () => {
                         <div className="part1"><span>ALEX MONIET</span></div>
                         <div className="part2"><span>Programming Manger</span></div>
                         <div className="part3"><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui voluptas illum nesciunt velit sit id distinctio officia!</span></div>
-             
+
                     </div>
                     <img src={pic2} alt="" />
                 </div>
+            </div>
+            <div className="section3Mid">
+                <video style={{width:'100%'}} className='bgVideo2' muted autoPlay loop>
+                    <source src={bg2} type='video/mp4' />
+                </video>
             </div>
         </div>
     )
